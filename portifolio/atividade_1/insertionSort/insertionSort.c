@@ -28,7 +28,14 @@ void printArray(int arr[], int n) {
 
 int main() {
     // Define o array de elementos a serem ordenados
-    int arr[] = {12, 11, 13, 5, 6};
+    int arr2[50] = {
+    78, 36, 91, 24, 63, 50, 83, 47, 20, 67,
+    9, 89, 43, 15, 62, 30, 96, 6, 38, 71,
+    18, 42, 80, 26, 55, 14, 98, 4, 33, 79,
+    8, 54, 31, 86, 16, 93, 60, 21, 70, 39,
+    46, 74, 25, 57, 12, 85, 13, 61, 40, 2
+};
+
     int n = sizeof(arr) / sizeof(arr[0]); // Calcula o número de elementos no array
 
     // Exibe o array antes da ordenação
